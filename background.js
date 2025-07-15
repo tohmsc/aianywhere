@@ -61,8 +61,9 @@ const AI_TOOLS = {
   },
   perplexity: {
     name: "Perplexity",
-    url: "https://www.perplexity.ai/search?q=",
-    type: "url"
+    url: "https://www.perplexity.ai/",
+    type: "input",
+    selector: 'textarea, input[type="text"], div[contenteditable="true"]'
   },
   phind: {
     name: "Phind",

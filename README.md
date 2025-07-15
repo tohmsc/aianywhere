@@ -18,7 +18,7 @@ AI Anywhere is a browser extension that allows you to right-click anywhere on an
   - ⚫ Grok
   - 🟡 Kimi
   - 🔺 Mistral
-  - 🔍 Perplexity *(direct search)*
+  - 🔍 Perplexity
   - 🟪 Phind
   - 🟦 Qwen
   - 🔴 Reddit Answers
