@@ -46,7 +46,7 @@ Since this is an unofficial extension, you'll need to install it manually:
 3. **Enable Developer Mode** by toggling the switch in the top-right corner
 4. **Click "Load unpacked"** button
 5. **Select the folder** containing the extension files
-6. The extension will now appear in your Chrome toolbar and context menu
+6. The extension will now appear in your Chrome toolbar
 
 ### Alternative Installation Steps:
 - You can also access the extensions page by clicking the three dots menu → More tools → Extensions
@@ -55,6 +55,6 @@ Since this is an unofficial extension, you'll need to install it manually:
 
 ---
 
-**Made by** [sourcetms](@sourcetms)
+**Made by** [sourcetms](https://github.com/sourcetms)
 
 **Want agents anywhere?** Check out [Pointer: The Agentic API](https://www.trypointer.com/)
