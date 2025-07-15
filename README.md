@@ -55,6 +55,6 @@ Since this is an unofficial extension, you'll need to install it manually:
 
 ---
 
-**Made by** [sourcetms](https://github.com/sourcetms)
+**Made by** [sourcetms](https://x.com/sourcetms)
 
 **Want agents anywhere?** Check out [Pointer: The Agentic API](https://www.trypointer.com/)
