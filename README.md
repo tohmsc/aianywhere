@@ -2,6 +2,8 @@
 
 AI Anywhere is a browser extension that allows you to right-click anywhere on any webpage and send selected text directly to the AI chat of your choice. Simply highlight text, right-click, and choose your preferred AI tool - the text will open in a new tab where you can freely modify your prompt and interact with the AI.
 
+![AI Anywhere Demo](demo.gif)
+
 ## Features
 
 - **Universal Text Selection**: Right-click on any selected text from any webpage
