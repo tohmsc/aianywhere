@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 320px;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f8f9fa;
+    }
+    h3 {
+      margin: 0 0 15px 0;
+      color: #333;
+    }
+    .instructions {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      border-left: 4px solid #4285f4;
+    }
+    .step {
+      margin: 8px 0;
+      font-size: 14px;
+      color: #555;
+    }
+    .ai-list {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .ai-item {
+      padding: 4px 0;
+      font-size: 13px;
+      color: #666;
+    }
+    .url-based {
+      color: #0066cc;
+    }
+    .input-based {
+      color: #cc6600;
+    }
+  </style>
+</head>
+<body>
+  <h3>💬 AI Anywhere</h3>
+  
+  <div class="instructions">
+    <div class="step">1. Highlight any text on a webpage</div>
+    <div class="step">2. Right-click the selected text</div>
+    <div class="step">3. Choose "Send to [AI Tool]" from the menu</div>
+  </div>
+  
+  <div class="ai-list">
+    <strong>Available AI Tools:</strong>
+    <div class="ai-item url-based">• Perplexity (direct search)</div>
+    <div class="ai-item url-based">• Reddit Answers (direct search)</div>
+    <div class="ai-item input-based">• Google AI Studio (auto-paste & send)</div>
+    <div class="ai-item input-based">• Grok (auto-paste & send)</div>
+    <div class="ai-item input-based">• Claude (auto-paste & send)</div>
+    <div class="ai-item input-based">• ChatGPT (auto-paste & send)</div>
+    <div class="ai-item input-based">• Qwen (auto-paste & send)</div>
+    <div class="ai-item input-based">• DeepSeek (auto-paste & send)</div>
+    <div class="ai-item input-based">• Kimi (auto-paste & send)</div>
+    <div class="ai-item input-based">• Mistral (auto-paste & send)</div>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>

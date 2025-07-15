@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "AI Anywhere",
+  "version": "1.0",
+  "description": "Send highlighted text to various AI tools",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "AI Anywhere"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
