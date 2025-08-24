@@ -27,7 +27,7 @@ const AI_TOOLS = {
     name: "Exa",
     url: "https://websets.exa.ai/",
     type: "input",
-    selector: 'textarea, input[type="text"], div[contenteditable="true"]'
+    selector: 'input[placeholder*="search" i], input[placeholder*="query" i], input[placeholder*="enter" i], input[type="search"], textarea, div[contenteditable="true"], [role="textbox"]'
   },
   gemini: {
     name: "Gemini",
@@ -49,9 +49,9 @@ const AI_TOOLS = {
   },
   kimi: {
     name: "Kimi",
-    url: "https://www.kimi.com/",
+    url: "https://kimi.moonshot.cn/",
     type: "input",
-    selector: 'textarea, div[contenteditable="true"], input[type="text"]'
+    selector: 'textarea[placeholder*="输入" i], textarea[placeholder*="message" i], textarea[placeholder*="ask" i], div[class*="input" i][contenteditable="true"], div[class*="editor" i][contenteditable="true"], textarea, div[contenteditable="true"], [role="textbox"]'
   },
   mistral: {
     name: "Mistral",
@@ -63,7 +63,7 @@ const AI_TOOLS = {
     name: "Perplexity",
     url: "https://www.perplexity.ai/",
     type: "input",
-    selector: 'textarea, input[type="text"], div[contenteditable="true"]'
+    selector: 'textarea[placeholder*="ask" i], textarea[placeholder*="search" i], textarea[placeholder*="question" i], div[data-placeholder], div[role="textbox"], textarea, div[contenteditable="true"], [role="textbox"]'
   },
   phind: {
     name: "Phind",
@@ -79,9 +79,9 @@ const AI_TOOLS = {
   },
   reddit: {
     name: "Reddit Answers", 
-    url: "https://www.reddit.com/answers/",
+    url: "https://www.reddit.com/answers",
     type: "input",
-    selector: 'input[type="text"], textarea, div[contenteditable="true"]'
+    selector: 'textarea#innerTextArea, textarea[name="guides-search-input"], textarea[aria-labelledby="fp-input-label"], input[placeholder*="question" i], input[placeholder*="search" i], input[type="search"], input[aria-label*="search" i], form input[type="text"], [data-testid*="search"], input[name="q"], input[type="text"], textarea, div[contenteditable="true"]'
   }
 };
 
